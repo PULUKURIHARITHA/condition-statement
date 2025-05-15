@@ -1,1 +1,10 @@
 # condition-statement
+num=int(input("enter the number between 1-7:"))
+if num==1:print("Sunday")
+elif num==7:print("monday")
+elif num==2:print("Tuesday")
+elif num==3:print("Wednesday")
+elif num==4:print("Thursday")
+elif num==5:print("Friday")
+elif num==6:print("Saturday")
+else:print("wrong input")
